@@ -21,15 +21,3 @@ elsif input_option == "3"
   puts JSON.pretty_generate(contact)
 end
 
-
-
-
-# require "unirest"
-
-# system "clear"
-# puts "Here is the first contact!"
-
-
-#   response = Unirest.get("http://localhost:3000/contact_list_url")
-#   contact = response.body
-#   puts contact
